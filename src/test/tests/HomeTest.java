@@ -60,7 +60,7 @@ public class HomeTest extends BaseTest {
     @Test(testName = "10 day page", description = "validating 10 day weather")
     public void test5() {
         homePage.click(homePage.popUpCloseBtn);
-
+        homePage.click(homePage.tendayBtn);
 
     }
 }
